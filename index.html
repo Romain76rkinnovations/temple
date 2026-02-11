@@ -32,7 +32,7 @@
       <a href="#avis">Avis</a>
       <a href="#contact">Contact</a>
     </div>
-    <a href="#contact" class="btn btn-primary btn-small nav-cta">Réserver</a>
+    <a href="#" class="btn btn-primary btn-small nav-cta book-trigger">Réserver</a>
     <button class="nav-burger" id="navBurger" aria-label="Ouvrir le menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -47,7 +47,7 @@
   <a href="#gallery" class="mobile-link">Galerie</a>
   <a href="#avis" class="mobile-link">Avis</a>
   <a href="#contact" class="mobile-link">Contact</a>
-  <a href="#contact" class="btn btn-primary" style="margin-top:16px">Réserver un terrain</a>
+  <a href="#" class="btn btn-primary book-trigger" style="margin-top:16px">Réserver un terrain</a>
 </div>
 
 <!-- ============================================
@@ -82,7 +82,7 @@
     </p>
 
     <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">⚡ Réserver un terrain</a>
+      <a href="#" class="btn btn-primary book-trigger">⚡ Réserver un terrain</a>
       <a href="#services" class="btn btn-secondary">Voir nos offres</a>
     </div>
 
@@ -185,7 +185,7 @@
         <div class="card-icon">⚽</div>
         <h3>Location de terrains</h3>
         <p>Terrains de foot5 / futsal sur gazon synthétique. Vestiaires, sanitaires et éclairage professionnel inclus.</p>
-        <a href="#contact" class="btn btn-primary btn-small">Réserver</a>
+        <a href="#" class="btn btn-primary btn-small book-trigger">Réserver</a>
       </div>
 
       <div class="service-card reveal">
@@ -193,7 +193,7 @@
         <div class="card-icon">🎂</div>
         <h3>Anniversaires</h3>
         <p>Offrez une fête inoubliable ! Packages clé en main pour anniversaires enfants et ados avec matchs et animations.</p>
-        <a href="#contact" class="btn btn-primary btn-small">Réserver</a>
+        <a href="#" class="btn btn-primary btn-small book-trigger">Réserver</a>
       </div>
 
       <div class="service-card reveal">
@@ -209,7 +209,7 @@
         <div class="card-icon">🫧</div>
         <h3>Bubble Foot</h3>
         <p>Activité fun et décalée ! Enfermé dans une bulle gonflable, défiez vos amis dans des matchs délirants.</p>
-        <a href="#contact" class="btn btn-primary btn-small">Réserver</a>
+        <a href="#" class="btn btn-primary btn-small book-trigger">Réserver</a>
       </div>
     </div>
   </div>
@@ -468,23 +468,271 @@
       <p class="footer-copy">
         © 2026 Le Temple du Foot — 5 Rue du Stade, 76140 Le Petit-Quevilly. Tous droits réservés.
       </p>
+      <p class="footer-powered">Propulsé par <a href="https://rkinnovations.fr" target="_blank" rel="noopener">RK Innovations</a></p>
+    </div>
+
+    <!-- RGPD / Mentions légales -->
+    <div class="legal-section">
+      <div class="legal-content">
+        <button class="legal-toggle" id="legalToggle">
+          📄 Mentions légales & Politique de confidentialité
+          <span id="legalArrow">▼</span>
+        </button>
+        <div class="legal-details" id="legalDetails">
+          <h3>Mentions légales</h3>
+          <p><strong>Raison sociale :</strong> Le Temple du Foot<br>
+          <strong>Adresse :</strong> 5 Rue du Stade, 76140 Le Petit-Quevilly, France<br>
+          <strong>Téléphone :</strong> 02 35 62 81 25<br>
+          <strong>Email :</strong> contact@letempledufootrouen.fr<br>
+          <strong>Directeur de la publication :</strong> Le Temple du Foot<br>
+          <strong>Hébergeur :</strong> À compléter (nom, adresse, téléphone de l'hébergeur)</p>
+
+          <h3>Politique de confidentialité (RGPD)</h3>
+          <p>Conformément au Règlement Général sur la Protection des Données (RGPD – Règlement UE 2016/679) et à la Loi Informatique et Libertés du 6 janvier 1978 modifiée, Le Temple du Foot s'engage à protéger la vie privée des utilisateurs de son site internet.</p>
+
+          <h3>Responsable du traitement</h3>
+          <p>Le responsable du traitement des données personnelles est Le Temple du Foot, situé au 5 Rue du Stade, 76140 Le Petit-Quevilly. Pour toute question relative à vos données personnelles : <a href="mailto:contact@letempledufootrouen.fr">contact@letempledufootrouen.fr</a>.</p>
+
+          <h3>Données collectées</h3>
+          <p>Les données personnelles collectées via les formulaires du site sont :</p>
+          <ul>
+            <li>Nom et prénom</li>
+            <li>Adresse email</li>
+            <li>Numéro de téléphone</li>
+            <li>Message ou demande de service</li>
+          </ul>
+
+          <h3>Finalité du traitement</h3>
+          <p>Les données sont collectées dans le but de :</p>
+          <ul>
+            <li>Traiter vos demandes de réservation de terrains</li>
+            <li>Répondre à vos demandes de contact et de devis</li>
+            <li>Gérer les inscriptions aux événements (anniversaires, privatisations)</li>
+            <li>Améliorer la qualité de nos services</li>
+          </ul>
+
+          <h3>Base légale du traitement</h3>
+          <p>Le traitement de vos données repose sur votre consentement explicite (article 6.1.a du RGPD), recueilli via la case à cocher présente dans nos formulaires. Vous pouvez retirer votre consentement à tout moment.</p>
+
+          <h3>Durée de conservation</h3>
+          <p>Vos données personnelles sont conservées pendant une durée maximale de 3 ans à compter de votre dernière interaction avec Le Temple du Foot, sauf obligation légale contraire.</p>
+
+          <h3>Destinataires des données</h3>
+          <p>Vos données personnelles ne sont jamais vendues ni cédées à des tiers. Elles sont exclusivement traitées par l'équipe du Temple du Foot pour les finalités mentionnées ci-dessus.</p>
+
+          <h3>Vos droits</h3>
+          <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+          <ul>
+            <li><strong>Droit d'accès :</strong> obtenir la confirmation que vos données sont traitées et en obtenir une copie.</li>
+            <li><strong>Droit de rectification :</strong> corriger des données inexactes ou incomplètes.</li>
+            <li><strong>Droit à l'effacement :</strong> demander la suppression de vos données.</li>
+            <li><strong>Droit à la limitation :</strong> limiter le traitement de vos données.</li>
+            <li><strong>Droit à la portabilité :</strong> recevoir vos données dans un format structuré.</li>
+            <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données.</li>
+          </ul>
+          <p>Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@letempledufootrouen.fr">contact@letempledufootrouen.fr</a>. Nous répondrons dans un délai de 30 jours.</p>
+          <p>Vous disposez également du droit d'introduire une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a> (Commission Nationale de l'Informatique et des Libertés).</p>
+
+          <h3>Cookies</h3>
+          <p>Ce site peut utiliser des cookies pour améliorer l'expérience utilisateur et analyser le trafic. Vous pouvez à tout moment gérer vos préférences de cookies via le bandeau de consentement affiché lors de votre première visite. Les cookies essentiels au fonctionnement du site ne nécessitent pas votre consentement. Les cookies analytiques et publicitaires ne sont déposés qu'après votre accord explicite.</p>
+
+          <h3>Sécurité des données</h3>
+          <p>Le Temple du Foot met en œuvre des mesures techniques et organisationnelles appropriées pour garantir la sécurité et la confidentialité de vos données personnelles contre tout accès non autorisé, perte, altération ou divulgation.</p>
+
+          <h3>Propriété intellectuelle</h3>
+          <p>L'ensemble du contenu de ce site (textes, images, logos, éléments graphiques) est la propriété exclusive de Le Temple du Foot ou de ses partenaires. Toute reproduction, même partielle, est interdite sans autorisation préalable.</p>
+
+          <h3>Conception du site</h3>
+          <p>Ce site a été conçu et développé par <a href="https://rkinnovations.fr" target="_blank" rel="noopener">RK Innovations</a>.</p>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
+
+<!-- ============================================
+     BOOKING MODAL
+     ============================================ -->
+<div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-label="Réservation de terrain">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
+
+    <div class="modal-form-content" id="modalFormContent">
+      <div class="modal-header">
+        <h2>⚽ RÉSERVER UN TERRAIN</h2>
+        <p>Choisissez votre terrain, votre créneau et réservez en quelques clics.</p>
+      </div>
+
+      <div class="modal-body">
+        <!-- Terrain Selection -->
+        <label class="form-group" style="display:block; margin-bottom:12px;">
+          <span style="font-size:0.72rem; font-weight:600; text-transform:uppercase; letter-spacing:1px; color:var(--gray-400);">Choisissez votre terrain</span>
+        </label>
+        <div class="terrain-grid">
+          <div class="terrain-card" data-terrain="terrain-1" onclick="selectTerrain(this)">
+            <input type="radio" name="terrain" value="terrain-1">
+            <div class="terrain-top">
+              <span class="terrain-name">
+                🏟️ Terrain 1 — Pro
+              </span>
+              <span class="terrain-check">✓</span>
+            </div>
+            <span class="terrain-badge" style="background:rgba(227,23,43,0.15); color:var(--red);">Populaire</span>
+            <div class="terrain-desc">Terrain foot5 premium — gazon synthétique dernière génération, éclairage LED, vestiaires privés.</div>
+            <div class="terrain-price">60€ <small>/ heure</small></div>
+          </div>
+
+          <div class="terrain-card" data-terrain="terrain-2" onclick="selectTerrain(this)">
+            <input type="radio" name="terrain" value="terrain-2">
+            <div class="terrain-top">
+              <span class="terrain-name">
+                ⚡ Terrain 2 — Classic
+              </span>
+              <span class="terrain-check">✓</span>
+            </div>
+            <span class="terrain-badge" style="background:rgba(45,139,70,0.15); color:var(--green-turf);">Bon rapport qualité-prix</span>
+            <div class="terrain-desc">Terrain foot5 polyvalent — gazon synthétique, éclairage standard, accès vestiaires partagés.</div>
+            <div class="terrain-price">50€ <small>/ heure</small></div>
+          </div>
+
+          <div class="terrain-card" data-terrain="terrain-3" onclick="selectTerrain(this)">
+            <input type="radio" name="terrain" value="terrain-3">
+            <div class="terrain-top">
+              <span class="terrain-name">
+                🎯 Terrain 3 — Compact
+              </span>
+              <span class="terrain-check">✓</span>
+            </div>
+            <span class="terrain-badge" style="background:rgba(245,166,35,0.15); color:var(--gold);">Idéal petits groupes</span>
+            <div class="terrain-desc">Terrain compact — parfait pour 3v3 ou entraînements, gazon synthétique, ambiance intimiste.</div>
+            <div class="terrain-price">40€ <small>/ heure</small></div>
+          </div>
+        </div>
+
+        <!-- Booking details -->
+        <div class="modal-row">
+          <div class="form-group">
+            <label for="bookName">Nom complet *</label>
+            <input type="text" id="bookName" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <label for="bookPhone">Téléphone *</label>
+            <input type="tel" id="bookPhone" placeholder="06 XX XX XX XX" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bookEmail">Email *</label>
+          <input type="email" id="bookEmail" placeholder="votre@email.com" required>
+        </div>
+
+        <div class="modal-row">
+          <div class="form-group">
+            <label for="bookDate">Date souhaitée *</label>
+            <input type="date" id="bookDate" required>
+          </div>
+          <div class="form-group">
+            <label for="bookTime">Créneau horaire</label>
+            <select id="bookTime">
+              <option value="">-- Choisir --</option>
+              <option value="09:00">09:00 – 10:00</option>
+              <option value="10:00">10:00 – 11:00</option>
+              <option value="11:00">11:00 – 12:00</option>
+              <option value="12:00">12:00 – 13:00</option>
+              <option value="13:00">13:00 – 14:00</option>
+              <option value="14:00">14:00 – 15:00</option>
+              <option value="15:00">15:00 – 16:00</option>
+              <option value="16:00">16:00 – 17:00</option>
+              <option value="17:00">17:00 – 18:00</option>
+              <option value="18:00">18:00 – 19:00</option>
+              <option value="19:00">19:00 – 20:00</option>
+              <option value="20:00">20:00 – 21:00</option>
+              <option value="21:00">21:00 – 22:00</option>
+              <option value="22:00">22:00 – 23:00</option>
+              <option value="23:00">23:00 – 00:00</option>
+              <option value="00:00">00:00 – 01:00</option>
+              <option value="01:00">01:00 – 02:00</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-row">
+          <div class="form-group">
+            <label for="bookDuration">Durée</label>
+            <select id="bookDuration">
+              <option value="1h">1 heure</option>
+              <option value="1h30">1h30</option>
+              <option value="2h" selected>2 heures</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bookPlayers">Nombre de joueurs</label>
+            <select id="bookPlayers">
+              <option value="6-10" selected>6 – 10 joueurs</option>
+              <option value="10-14">10 – 14 joueurs</option>
+              <option value="14+">14+ joueurs</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- RGPD Consent -->
+        <div class="rgpd-consent">
+          <input type="checkbox" id="rgpdConsent" required>
+          <label for="rgpdConsent">
+            J'accepte que mes données personnelles soient collectées et traitées par Le Temple du Foot pour le traitement de ma demande de réservation, conformément à la <a href="#legalToggle" onclick="event.preventDefault(); document.getElementById('bookingModal').classList.remove('open'); document.body.style.overflow=''; setTimeout(()=>{document.getElementById('legalToggle').click(); document.getElementById('legalToggle').scrollIntoView({behavior:'smooth'})}, 300);">politique de confidentialité</a>. Je peux retirer mon consentement à tout moment en écrivant à contact@letempledufootrouen.fr.
+          </label>
+        </div>
+
+        <button class="btn btn-primary" id="bookingSubmit" onclick="submitBooking()">
+          Confirmer ma réservation →
+        </button>
+      </div>
+    </div>
+
+    <!-- Success state -->
+    <div class="modal-success" id="modalSuccess">
+      <div class="success-icon">✅</div>
+      <h3>RÉSERVATION ENVOYÉE !</h3>
+      <p>Merci ! Votre demande de réservation a bien été transmise.<br>Notre équipe vous recontactera sous 24h pour confirmer votre créneau.</p>
+      <br>
+      <a href="tel:+33235628125" class="btn btn-secondary btn-small">📞 Appeler pour confirmer</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     COOKIE CONSENT BANNER (RGPD)
+     ============================================ -->
+<div class="cookie-banner" id="cookieBanner">
+  <div class="cookie-inner">
+    <p>
+      🍪 Ce site utilise des cookies pour améliorer votre expérience de navigation et analyser le trafic. 
+      En cliquant sur « Accepter », vous consentez à l'utilisation de tous les cookies. 
+      Consultez notre <a href="#" onclick="event.preventDefault(); document.getElementById('legalToggle').click(); document.getElementById('legalToggle').scrollIntoView({behavior:'smooth'}); closeCookieBanner();">politique de confidentialité</a> pour en savoir plus.
+    </p>
+    <div class="cookie-actions">
+      <button class="btn btn-primary btn-small" onclick="acceptCookies('all')">Tout accepter</button>
+      <button class="btn btn-ghost btn-small" onclick="acceptCookies('essential')">Essentiels uniquement</button>
+      <button class="btn btn-ghost btn-small" onclick="acceptCookies('refuse')">Refuser</button>
+    </div>
+  </div>
+</div>
 
 <!-- ============================================
      FLOATING CTA (Mobile)
      ============================================ -->
 <div class="floating-cta" id="floatingCta">
   <a href="tel:+33235628125" class="btn btn-secondary btn-small">📞 Appeler</a>
-  <a href="#contact" class="btn btn-primary btn-small">⚡ Réserver</a>
+  <button class="btn btn-primary btn-small book-trigger">⚡ Réserver</button>
 </div>
 
 <!-- ============================================
      JAVASCRIPT
      ============================================ -->
 <script>
-// Sticky nav on scroll
+// ============================================
+// NAV & FLOATING CTA
+// ============================================
 const nav = document.getElementById('nav');
 const floatingCta = document.getElementById('floatingCta');
 
@@ -494,7 +742,9 @@ window.addEventListener('scroll', () => {
   floatingCta.classList.toggle('visible', y > 600);
 });
 
-// Mobile menu
+// ============================================
+// MOBILE MENU
+// ============================================
 const burger = document.getElementById('navBurger');
 const mobileMenu = document.getElementById('mobileMenu');
 const mobileLinks = mobileMenu.querySelectorAll('a');
@@ -515,24 +765,114 @@ mobileLinks.forEach(link => {
   });
 });
 
-// Scroll reveal
+// ============================================
+// SCROLL REVEAL
+// ============================================
 const revealElements = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
+    if (entry.isIntersecting) entry.target.classList.add('visible');
   });
 }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
 revealElements.forEach(el => revealObserver.observe(el));
 
-// Staggered reveals
 document.querySelectorAll('.services-grid .service-card, .reviews-grid .review-card').forEach((card, i) => {
   card.style.transitionDelay = `${i * 0.1}s`;
 });
 
-// Form submission (demo)
+// ============================================
+// BOOKING MODAL
+// ============================================
+const bookingModal = document.getElementById('bookingModal');
+const modalFormContent = document.getElementById('modalFormContent');
+const modalSuccess = document.getElementById('modalSuccess');
+
+function openBookingModal() {
+  // Reset to form state
+  modalFormContent.classList.remove('hide');
+  modalSuccess.classList.remove('show');
+  bookingModal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  // Close mobile menu if open
+  burger.classList.remove('open');
+  mobileMenu.classList.remove('open');
+  burger.setAttribute('aria-expanded', 'false');
+}
+
+function closeBookingModal() {
+  bookingModal.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// All "book-trigger" buttons open the modal
+document.querySelectorAll('.book-trigger').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    openBookingModal();
+  });
+});
+
+// Close modal
+document.getElementById('modalClose').addEventListener('click', closeBookingModal);
+
+bookingModal.addEventListener('click', (e) => {
+  if (e.target === bookingModal) closeBookingModal();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && bookingModal.classList.contains('open')) closeBookingModal();
+});
+
+// Terrain selection
+function selectTerrain(card) {
+  document.querySelectorAll('.terrain-card').forEach(c => c.classList.remove('selected'));
+  card.classList.add('selected');
+  card.querySelector('input[type="radio"]').checked = true;
+}
+
+// Submit booking
+function submitBooking() {
+  const name = document.getElementById('bookName').value.trim();
+  const phone = document.getElementById('bookPhone').value.trim();
+  const email = document.getElementById('bookEmail').value.trim();
+  const date = document.getElementById('bookDate').value;
+  const consent = document.getElementById('rgpdConsent').checked;
+  const terrainSelected = document.querySelector('.terrain-card.selected');
+
+  // Validation
+  if (!terrainSelected) {
+    alert('Veuillez sélectionner un terrain.');
+    return;
+  }
+  if (!name || !phone || !email) {
+    alert('Veuillez remplir tous les champs obligatoires (Nom, Téléphone, Email).');
+    return;
+  }
+  if (!date) {
+    alert('Veuillez choisir une date.');
+    return;
+  }
+  if (!consent) {
+    alert('Veuillez accepter la politique de confidentialité pour continuer.');
+    return;
+  }
+
+  // Email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    alert('Veuillez entrer une adresse email valide.');
+    return;
+  }
+
+  // Show success
+  modalFormContent.classList.add('hide');
+  modalSuccess.classList.add('show');
+}
+
+// ============================================
+// CONTACT FORM SUBMISSION
+// ============================================
 const form = document.querySelector('.contact-form');
 form.addEventListener('click', (e) => {
   if (e.target.tagName === 'BUTTON') {
@@ -552,16 +892,61 @@ form.addEventListener('click', (e) => {
   }
 });
 
-// Smooth scroll for all anchor links
+// ============================================
+// LEGAL TOGGLE
+// ============================================
+const legalToggle = document.getElementById('legalToggle');
+const legalDetails = document.getElementById('legalDetails');
+const legalArrow = document.getElementById('legalArrow');
+
+legalToggle.addEventListener('click', () => {
+  const isOpen = legalDetails.classList.toggle('open');
+  legalArrow.textContent = isOpen ? '▲' : '▼';
+});
+
+// ============================================
+// COOKIE BANNER
+// ============================================
+const cookieBanner = document.getElementById('cookieBanner');
+
+// Show banner after 1.5s if no preference saved
+setTimeout(() => {
+  if (!sessionStorage.getItem('cookieConsent')) {
+    cookieBanner.classList.add('visible');
+  }
+}, 1500);
+
+function acceptCookies(level) {
+  sessionStorage.setItem('cookieConsent', level);
+  closeCookieBanner();
+}
+
+function closeCookieBanner() {
+  cookieBanner.classList.remove('visible');
+}
+
+// ============================================
+// SMOOTH SCROLL (skip book-trigger links)
+// ============================================
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  if (anchor.classList.contains('book-trigger')) return;
   anchor.addEventListener('click', function(e) {
-    const target = document.querySelector(this.getAttribute('href'));
+    const href = this.getAttribute('href');
+    if (href === '#') return;
+    const target = document.querySelector(href);
     if (target) {
       e.preventDefault();
       target.scrollIntoView({ behavior: 'smooth' });
     }
   });
 });
+
+// Set minimum date for booking to today
+const dateInput = document.getElementById('bookDate');
+if (dateInput) {
+  const today = new Date().toISOString().split('T')[0];
+  dateInput.setAttribute('min', today);
+}
 </script>
 
 </body>
